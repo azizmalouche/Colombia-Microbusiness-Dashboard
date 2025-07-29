@@ -3,10 +3,6 @@ import pandas as pd
 from langchain_community.chat_models import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 
-# Load dashboard data (CSV export from Tableau)
-df = pd.read_csv("df_stacked.csv")
-dashboard_summary = df.describe(include='all').to_string()
-
 # Load manual context
 with open("dashboard_context.txt", "r", encoding="utf-8") as f:
     manual_context = f.read()
@@ -36,9 +32,6 @@ if prompt:
     # Construct full prompt with context and user question
     full_prompt = f"""
     You are a helpful analyst assistant. Use the data summary below to answer the user's question.
-
-    Dashboard Data Summary:
-    {dashboard_summary}
 
     Dashboard Description and Metric Definitions:
     {manual_context}
