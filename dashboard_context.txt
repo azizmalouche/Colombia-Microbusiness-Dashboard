@@ -1,0 +1,50 @@
+This dashboard analyzes small business behavior across 4 main indices. Each index is calculated as a simple average: if a business meets 3 out of 6 indicators, its score is 3/6.
+
+1. **Formality**
+   - Measures regulatory compliance and tax registration.
+   - Composed of:
+     - business_is_registered_with_chamberce_of_commerce_P1055
+     - business_registered_as_P1056
+     - business_has_single_tax_registry_RUT_P1633
+     - common_or_simplified_RUT_type_P986
+     - filed_income_tax_return_past_year_P2991
+     - filed_VAT_past_year_P2992
+     - filed_ICA_past_year_P2993
+     - source_of_social_security_P6110
+     - business_does_accounting_or_daily_bookkeeping_P6775
+     - record_type_used_to_keep_accounts_P640
+     - contract_type_verbal_or_written_P6450
+
+2. **Financial Inclusion**
+   - Measures access to and use of financial services.
+   - Composed of:
+     - source_of_founding_money_P3052
+     - have_applied_credit_or_loan_last_year_P1765
+     - what_did_you_use_the_loan_for_P1570
+     - where_did_you_save_P1771
+     - paid_health_or_pension_last_month_P3088
+
+3. **Digital Readiness**
+   - Measures digital tools and internet access used in the business.
+   - Composed of:
+     - has_email_P3000
+     - business_has_presence_on_social_network_P1559
+     - business_has_internet_service_P2524
+     - business_has_website_P2532
+     - use_laptop_or_tablet_for_business_P4001
+     - use_cellphone_for_business_P976
+
+4. **Business Best Practices & Personal Initiative**
+   - Measures visibility, motivation, and working habits.
+   - Composed of:
+     - business_is_visible_to_public_P469
+     - business_is_mobile_or_stationary_P3098
+     - has_business_name_P3035
+     - has_exclusive_space_in_house_for_this_work_P3095
+     - highest_level_of_education
+     - place_mainly_worked_in_P6880
+     - main_reason_created_P3051
+     - role_in_work_P6430
+     - have_people_who_help_you_P1800
+
+Each index is scored based on how many of its features are `True` or affirmative per business.
