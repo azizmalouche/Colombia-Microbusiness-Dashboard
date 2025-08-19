@@ -1,6 +1,6 @@
 # Colombia-Microbusiness-Dashboard
 
-Interactive Dashboard: https://public.tableau.com/app/profile/aziz.malouche/viz/UNDPColombiaDashboard/dashboard
+Interactive Dashboard (scroll down and set to desktop layout): https://public.tableau.com/app/profile/aziz.malouche/viz/UNDPColombiaDashboard/dashboard
 
 This paper presents a comprehensive analysis of the microbusiness landscape in Colombia, using four indices—Formality, Financial Formality, Digital Readiness, and Business Sophistication—derived from publicly available data in the national household and business surveys (GEIH and EMICRON). Using clustering techniques, Multiple Correspondence Analysis, and Structural Equation Modeling (SEM), we identify the strongest predictors of formality and financial inclusion, and propose actionable, data-driven policy recommendations.
 
